@@ -1,5 +1,5 @@
 # Opidroid: A fully autuonomous, Sub-Q Drug Delivery Platform for Postoperative Pain Remediation
-The Opidroid was designed to deliver personalized morphine doses for postoperative patients through an intelligent use of machine learning. The device leverage a 3 stage process in order to complete its task.
+The Opidroid was designed to deliver personalized morphine doses for postoperative patients through an intelligent use of machine learning. The device leverage a 3 stage process in order to complete its task. The following code represents the machine learning apsect of the project. 
 
 ### (1) Machine Learning
 Data acquisition and exploratory analysis were performed on 2 data sets and trained on two models. The first model applies an EEG dataset towards a Random Forest Tree to classify 3 emotions: HAPPY, SAD, or NEUTRAL. The second model applies a multimodal physiological dataset towards a traditional Feedforward Neural Network to classify physiological conditions: STRESSED, AMUSED, or BASELINE. A combination of SAD and STRESSED indicates a patient is in pain, signaling to the mobile app the patient's state. Contact me for datasets. 
